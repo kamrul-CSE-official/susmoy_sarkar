@@ -14,17 +14,17 @@ export default function Navbar() {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Link</a>
+              <Link to="/">Link 2</Link>
             </li>
             <li>
               <details>
                 <summary>Parent</summary>
                 <ul className="p-2 bg-base-100">
                   <li>
-                    <a>Link 1</a>
+                    <Link to="/">Link 1</Link>
                   </li>
                   <li>
-                    <a>Link 2</a>
+                    <Link to="/">Link 2</Link>
                   </li>
                 </ul>
               </details>
